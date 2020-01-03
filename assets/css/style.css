@@ -1,0 +1,39 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 24 px;
+}
+body {
+    position: relative;
+    min-height: 100vh;
+    background-image: url(background.png);
+}
+.container {
+    position: relative;
+}
+
+form{
+    position: absolute;
+    top: 40px;
+    left: 50%;
+    width: 700px;
+    text-align: center;
+    transform: translateX(-50%);
+}
+
+.result{
+    position: absolute;
+    top:100px;
+    left: 50%;
+    width: 100%;
+    transform: translateX(-50%);
+}
+
+.box-card{
+    background-color: white;
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
